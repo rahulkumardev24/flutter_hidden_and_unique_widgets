@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:hidden_and_unique_widgets/test_screen.dart';
 import 'package:hidden_and_unique_widgets/unique_widgets/selectable_text_widgets.dart';
+import 'package:hidden_and_unique_widgets/unique_widgets/shader_mask_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: SelectableTextWidgets()
+      home: ShaderMaskScreen()
     );
   }
 }
@@ -27,4 +29,8 @@ class MyApp extends StatelessWidget {
 /// ---------- FLUTTER HIDDEN and UNIQUE WIDGETS -----------------------------///
 /// PART 1
 /// SELECTABLE TEXT
+/// PART 2
+/// ShaderMask
+/// This widgets is use for apply gradient in any widgets : like Test , image , icon etc .......
+///
 
